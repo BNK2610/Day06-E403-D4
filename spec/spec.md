@@ -259,11 +259,11 @@ AI không tự làm:
 
 | Họ tên | MSV | Phần việc |
 | --- | --- | --- |
-| Bùi Ngọc Khánh | 2A202600743 | Define Value, user stories, eval metrics, tổng hợp tài liệu bản cuối |
-| Nguyễn Xuân Hiệp | 2A202600670 | Define Trust, learning signal, cách user báo sai và kiểm chứng AI |
-| Nguyễn Quang Huy | 2A202600927 | Correction signal, ROI, case failure/correction |
-| Nguyễn Văn Dương | 2A202600637 | Failure modes, mini AI spec, demo narrative |
-| Vũ Hải Tuấn | 2A202600958 | Feasibility, database/prototype, codebase và hướng dẫn chạy |
+| Vũ Hải Tuấn | 2A202600958 | Value, problem statement, user stories, tổng hợp SPEC/README |
+| Nguyễn Xuân Hiệp | 2A202600670 | Trust design, learning signal, audit log, kiểm thử case AI sai |
+| Nguyễn Quang Huy | 2A202600927 | Correction signal, ROI, học phí/payment flow, ticket hỗ trợ |
+| Nguyễn Văn Dương | 2A202600637 | Failure modes, mini AI spec, demo script, test cases |
+| Bùi Ngọc Khánh | 2A202600743 | Feasibility, database schema/mock data, prototype integration, hướng dẫn chạy |
 
 Mỗi thành viên cần nắm được ba câu hỏi khi demo:
 

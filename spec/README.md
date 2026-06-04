@@ -1,9 +1,9 @@
-﻿# SPEC san pham
+﻿# SPEC sản phẩm
 
-Thu muc nay chua SPEC san pham cho demo Day 06.
+Thư mục này chứa SPEC sản phẩm cho demo Day 06.
 
-File chinh:
+File chính:
 
-- `spec.md`: Product Canvas, bang chung, lat cat build, trust design, failure modes, eval metrics, ROI, demo paths va phan cong.
+- `spec.md`: Product Canvas, bằng chứng, lát cắt build, trust design, failure modes, eval metrics, ROI, demo paths và phân công.
 
-SPEC duoc viet nhu mot lap luan san pham: san pham giai quyet van de gi, AI tham gia quyet dinh nao, khi AI sai thi xu ly ra sao, va nhung gia dinh cua nhom dua tren bang chung nao.
+SPEC được viết như một lập luận sản phẩm: sản phẩm giải quyết vấn đề gì, AI tham gia quyết định nào, khi AI sai thì xử lý ra sao, và những giả định của nhóm dựa trên bằng chứng nào.

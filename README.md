@@ -1,21 +1,21 @@
-﻿# Day06-Lop-NhomXX - AI Vin Learner
+﻿# Day06-E403-D4 - AI Vin Learner
 
-AI Vin Learner la tro ly AI cho phu huynh hoc sinh, giup tra cuu thong tin hoc tap, diem danh, diem so, hoc phi, thong bao va ho tro tao ticket/lich trao doi voi nha truong. San pham thuoc track **Learning OS** va duoc xay dung theo huong **augmentation**: AI tong hop, goi tool va dieu huong, nhung khong tu thuc hien cac hanh dong nhay cam nhu thanh toan hay gui khieu nai chinh thuc neu chua co xac nhan.
+AI Vin Learner là trợ lý AI cho phụ huynh học sinh, giúp tra cứu thông tin học tập, điểm danh, điểm số, học phí, thông báo và hỗ trợ tạo ticket/đặt lịch trao đổi với nhà trường. Sản phẩm thuộc track **Learning OS** và được xây dựng theo hướng **augmentation**: AI tổng hợp, gọi tool và điều hướng, nhưng không tự thực hiện các hành động nhạy cảm như thanh toán hay gửi khiếu nại chính thức nếu chưa có xác nhận.
 
-## Thanh vien nhom
+## Thành viên nhóm
 
-| MSV | Ho va ten | Phan viec chinh |
+| Họ tên | MSV | Phần việc |
 | --- | --- | --- |
-| 2A202600743 | Bui Ngoc Khanh | Value, user stories, eval metrics, tong hop tai lieu |
-| 2A202600670 | Nguyen Xuan Hiep | Trust design, learning signal |
-| 2A202600927 | Nguyen Quang Huy | Correction signal, ROI |
-| 2A202600637 | Nguyen Van Duong | Failure modes, mini AI spec |
-| 2A202600958 | Vu Hai Tuan | Feasibility, prototype/codebase |
+| Vũ Hải Tuấn | 2A202600958 | Value, problem statement, user stories, tổng hợp SPEC/README |
+| Nguyễn Xuân Hiệp | 2A202600670 | Trust design, learning signal, audit log, kiểm thử case AI sai |
+| Nguyễn Quang Huy | 2A202600927 | Correction signal, ROI, học phí/payment flow, ticket hỗ trợ |
+| Nguyễn Văn Dương | 2A202600637 | Failure modes, mini AI spec, demo script, test cases |
+| Bùi Ngọc Khánh | 2A202600743 | Feasibility, database schema/mock data, prototype integration, hướng dẫn chạy |
 
-## Cau truc repo
+## Cấu trúc repo
 
 ```text
-Day06-Lop-NhomXX/
+Day06-E403-D4/
 ├── README.md
 ├── hackathon-rules.md
 ├── spec/
@@ -30,13 +30,13 @@ Day06-Lop-NhomXX/
     └── src/
 ```
 
-## Tom tat prototype
+## Tóm tắt prototype
 
-- Giao dien: Streamlit.
-- Database: PostgreSQL schema `school_ai` voi mock data phu huynh, hoc sinh, giao vien, diem so, diem danh, hoc phi, thong bao, thuc don, audit log va support ticket.
-- AI layer: LangChain tool-calling agent, LLM provider cau hinh qua `.env`.
-- Trust layer: tab `Kiem chung AI` luu cau hoi, intent, tool/nguon du lieu, cau tra loi va trang thai escalation.
+- Giao diện: Streamlit.
+- Database: PostgreSQL schema `school_ai` với mock data phụ huynh, học sinh, giáo viên, điểm số, điểm danh, học phí, thông báo, thực đơn, audit log và support ticket.
+- AI layer: LangChain tool-calling agent, LLM provider cấu hình qua `.env`.
+- Trust layer: tab `Kiểm chứng AI` lưu câu hỏi, intent, tool/nguồn dữ liệu, câu trả lời và trạng thái escalation.
 
-## Huong dan nhanh
+## Hướng dẫn nhanh
 
-Xem huong dan chay prototype tai [codebase/README.md](codebase/README.md) va SPEC san pham tai [spec/spec.md](spec/spec.md).
+Xem hướng dẫn chạy prototype tại [codebase/README.md](codebase/README.md) và SPEC sản phẩm tại [spec/spec.md](spec/spec.md).
